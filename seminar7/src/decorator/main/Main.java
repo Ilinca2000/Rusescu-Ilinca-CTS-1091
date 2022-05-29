@@ -1,9 +1,9 @@
-package ex7.main;
+package decorator.main;
 
-import ex7.decoratorClases.Decorator;
-import ex7.decoratorClases.DecoratorOcazional;
-import ex7.decoratorClases.PrinteazaBilet;
-import ex7.decoratorClases.Printer;
+import decorator.decoratorClases.Decorator;
+import decorator.decoratorClases.DecoratorOcazional;
+import decorator.decoratorClases.PrinteazaBilet;
+import decorator.decoratorClases.Printer;
 
 public class Main {
     public static void main(String[] args) {

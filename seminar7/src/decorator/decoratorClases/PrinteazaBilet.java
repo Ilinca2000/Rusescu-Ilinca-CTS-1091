@@ -1,4 +1,4 @@
-package ex7.decoratorClases;
+package decorator.decoratorClases;
 
 public class PrinteazaBilet implements Printer{
     @Override

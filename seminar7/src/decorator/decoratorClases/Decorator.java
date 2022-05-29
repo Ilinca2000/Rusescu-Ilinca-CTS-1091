@@ -1,4 +1,4 @@
-package ex7.decoratorClases;
+package decorator.decoratorClases;
 
 public abstract class Decorator implements Printer{
     private Printer printer;

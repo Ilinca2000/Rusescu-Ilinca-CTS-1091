@@ -1,12 +1,15 @@
 package factoryMethod;
 
-public class Troleibuz extends MijlocTransportComun {
+public class Troleibuz extends MijlocTransportComun{
     public Troleibuz(String nrInmatriculare) {
         super(nrInmatriculare);
     }
 
     @Override
     public String toString() {
-        return "Troleibuz" + nrInmatriculare;
+        final StringBuilder sb = new StringBuilder("Troleibuz{");
+        sb.append("nrInmatriculare='").append(nrInmatriculare).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

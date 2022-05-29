@@ -1,4 +1,4 @@
-package ex8.proxyClases;
+package proxy.proxyClases;
 
 public class AutobuzDeNoapte implements MijlocTransport{
 

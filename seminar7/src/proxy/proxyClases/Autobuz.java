@@ -1,4 +1,4 @@
-package ex8.proxyClases;
+package proxy.proxyClases;
 
 public class Autobuz implements MijlocTransport{
     private Integer nrCalatori;

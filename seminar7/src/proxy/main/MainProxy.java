@@ -1,8 +1,8 @@
-package ex8.main;
+package proxy.main;
 
-import ex8.proxyClases.Autobuz;
-import ex8.proxyClases.AutobuzDeNoapte;
-import ex8.proxyClases.MijlocTransport;
+import proxy.proxyClases.Autobuz;
+import proxy.proxyClases.AutobuzDeNoapte;
+import proxy.proxyClases.MijlocTransport;
 
 public class MainProxy {
 

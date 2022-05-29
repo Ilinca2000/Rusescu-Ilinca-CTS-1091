@@ -1,4 +1,4 @@
-package ex8.proxyClases;
+package proxy.proxyClases;
 
 public interface MijlocTransport {
     public void opresteInStatie();

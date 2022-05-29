@@ -1,8 +1,10 @@
+package simpleFactory;
+
 public class Factory {
     public static MijlocTransportComun creareMijlocTransport(TipMijlocTransport tip, String nrInmatriculare){
-        switch (tip){
+        switch(tip){
             case Autobuz:
-                return new Autobuz(nrInmatriculare);
+                return  new Autobuz(nrInmatriculare);
             case Tramvai:
                 return new Tramvai(nrInmatriculare);
             case Troleibuz:
@@ -10,5 +12,6 @@ public class Factory {
             default:
                 return null;
         }
+
     }
 }

@@ -7,7 +7,7 @@ public class Troleibuz extends MijlocTransportComun{
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Troleibuz{");
+        final StringBuilder sb = new StringBuilder("simpleFactory.Troleibuz{");
         sb.append("nrInmatriculare='").append(nrInmatriculare).append('\'');
         sb.append('}');
         return sb.toString();

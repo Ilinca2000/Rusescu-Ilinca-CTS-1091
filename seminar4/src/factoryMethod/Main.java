@@ -7,7 +7,7 @@ public class Main {
         System.out.println(mijloc.toString());
     }
     public static void main(String[] args) {
-        //Factory factory=new FactoryAutobuz();
+        //simpleFactory.Factory factory=new FactoryAutobuz();
         //System.out.println(factory.creareMijloc("Ceva").getNrInmatriculare());
         modulAfisareMijlocTransport(new FactoryAutobuz(), "nautobuz");
 

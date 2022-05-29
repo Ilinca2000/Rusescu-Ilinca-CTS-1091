@@ -1,4 +1,4 @@
-package factoryMethod;
+package simpleFactory;
 
 public class Autobuz extends MijlocTransportComun{
 
@@ -8,7 +8,7 @@ public class Autobuz extends MijlocTransportComun{
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("simpleFactory.Autobuz{");
+        final StringBuilder sb = new StringBuilder("Autobuz{");
         sb.append("nrInmatriculare='").append(nrInmatriculare).append('\'');
         sb.append('}');
         return sb.toString();

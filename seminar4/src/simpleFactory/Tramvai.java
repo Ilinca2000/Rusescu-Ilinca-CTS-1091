@@ -1,14 +1,13 @@
-package factoryMethod;
+package simpleFactory;
 
-public class Autobuz extends MijlocTransportComun{
-
-    public Autobuz(String nrInmatriculare) {
+public class Tramvai extends MijlocTransportComun{
+    public Tramvai(String nrInmatriculare) {
         super(nrInmatriculare);
     }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("simpleFactory.Autobuz{");
+        final StringBuilder sb = new StringBuilder("Tramvai{");
         sb.append("nrInmatriculare='").append(nrInmatriculare).append('\'');
         sb.append('}');
         return sb.toString();
